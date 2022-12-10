@@ -1,0 +1,45 @@
+body {
+    background: #a8cf47;
+    background: -webkit-linear-gradient(to right, #43502c, #aab929);
+    background: linear-gradient(to right, #43502c, #93b929);
+}
+
+.tft {
+    width: 72vw;
+    height:30vw;
+    border-radius: 25px;
+}
+
+.play-text {
+    position: absolute;
+    color: aliceblue;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+  }
+
+img {
+    padding: 15px;
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  display: inline-block;
+}
